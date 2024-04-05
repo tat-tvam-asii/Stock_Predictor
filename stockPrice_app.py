@@ -1,4 +1,4 @@
-# CREATED BY ANGEL SANTANA HERNANDEZ
+# CREATED BY YASH KUMAR
 # # 
 # #
 # #
@@ -28,11 +28,11 @@ import yfinance as yf
 
 # --- CONGIF PAGE AND PAGE LAYOUT ---
 
-st.set_page_config(page_title='Stock Price Prediction', # APP NAME FOR BROWSER
+st.set_page_config(page_title='Stock Price Prediction App', # APP NAME FOR BROWSER
                     layout= 'wide' # PAGE LAYOUT
                     )
 
-st.title("Stock Price Prediction 🤑💲") # SET PAGE TITLE
+st.title("Stock Price Prediction App 🤑💲") # SET PAGE TITLE
 # --- END CONFIG PAGE ---
 
 
@@ -399,7 +399,7 @@ text-align: center;
 }
 </style>
 <div class="footer">
-<p>Developed with ❤ by <a style='display: block; text-align: center;' href="https://twitter.com/iamAngelSH" target="_blank">Angel Santana Hernandez</a></p>
+<p>Developed with ❤ by <a style='display: block; text-align: center;' href="https://twitter.com/Tt_tvam_asi" target="_blank">Yash Kumar</a></p>
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
